@@ -1,0 +1,65 @@
+.playerFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #282828;
+}
+
+.playerFooter__left {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 300px;
+}
+
+.playerFooter__green {
+    color: #1ed15e;
+}
+
+.playerFooter__right * .MuiSlider-root {
+    color: green;
+}
+
+.playerFooter__green:hover, .playerFooter__icon:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+.playerFooter__center {
+    flex: 0.4;
+    width: 224px;
+    padding: 0 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.playerFooter__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex: 0.3;
+}
+
+.playerFooter__albumImage {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.playerFooter__albumInfo>h4 {
+    font-size: medium;
+    margin-bottom: 5px;
+}
+
+.playerFooter__albumInfo>p {
+    font-size: 12px;
+}

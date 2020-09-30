@@ -1,0 +1,93 @@
+.playerBody {
+    flex: 0.8;
+    padding: 30px;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+    overflow-y: overlay;
+    padding-bottom: 80px;
+}
+
+.playerBody::-webkit-scrollbar {
+    display: none;
+}
+
+/* .playerBody::-webkit-scrollbar {
+    width: 8px;
+    height: 100vh;
+}
+
+.playerBody::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 20px;
+    background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+}
+
+.playerBody::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+}
+
+.playerBody::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} */
+
+.playerBody__info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.playerBody__info>img {
+    height: 20vw;
+    min-height: 200px;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.8);
+}
+
+.playerBody__infoText {
+    flex: 1;
+}
+
+.playerBody__infoText>h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.playerBody__infoText>p {
+    font-size: 14px;
+}
+
+.playerBody__icons {
+    display: flex;
+    align-items: center;
+}
+
+.playerBody__icons>* {
+    cursor: pointer;
+}
+
+.playerBody__icons>.MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.playerBody__shuffle {
+    font-size: 80px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.playerBody__shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+}
+
+.playerBody__songs {
+    z-index: 1;
+    margin: 20px -30px;
+}
